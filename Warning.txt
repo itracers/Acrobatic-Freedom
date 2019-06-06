@@ -1,0 +1,5 @@
+Editor:
+Unity 2019.1.5f1
+Platforms:
+-Android Build Support + Android SDK & NDK Tools
+-iOS Build Support
