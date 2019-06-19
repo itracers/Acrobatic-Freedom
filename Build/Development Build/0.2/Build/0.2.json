@@ -1,0 +1,16 @@
+{
+"companyName": "ITracers Company",
+"productName": "Project 2.5D",
+"productVersion": "0.2 - Development ",
+"dataUrl": "0.2.data.unityweb",
+"wasmCodeUrl": "0.2.wasm.code.unityweb",
+"wasmFrameworkUrl": "0.2.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": true,
+"multithreading": false,
+"unityVersion": "2019.1.7f1"
+}
