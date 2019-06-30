@@ -1,9 +1,18 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - LookPersonalOnMouse
+    - TestMovement
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Test/TestScene.unity:
+    Assets/Scenes/TestScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -12,21 +21,53 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
-    - Class: 154
+    - Class: 108
       Script: {instanceID: 0}
-    - Class: 156
+    - Class: 114
+      Script: {instanceID: 9324}
+    - Class: 114
+      Script: {instanceID: 9330}
+    - Class: 114
+      Script: {instanceID: 9336}
+    - Class: 114
+      Script: {instanceID: 9380}
+    - Class: 114
+      Script: {instanceID: 9382}
+    - Class: 114
+      Script: {instanceID: 9720}
+    - Class: 114
+      Script: {instanceID: 10144}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
-    - Class: 218
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -463,6 +504,12 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
+      Hash: 169de36362b80bff036f2a1788ff36b6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MouseMoveTest
+  - hash:
+      serializedVersion: 2
       Hash: f08a111e17bb701f9c9ec57bb78d9920
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -491,6 +538,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Analytics.Tracker.dll
     namespaceName: UnityEngine.Analytics
     className: AnalyticsTracker
+  - hash:
+      serializedVersion: 2
+      Hash: eb1f86cca3c47aa1287a5022ededdc3a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LookPersonalOnMouse
   - hash:
       serializedVersion: 2
       Hash: 0fb27be807aa299702f28ad0bcad1f46
@@ -607,6 +660,12 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 03094b52ad351d6575abfed82cac41f4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TestMovement
+  - hash:
+      serializedVersion: 2
       Hash: ee0cef6caaac8ae485bfa82f000f0f7b
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -667,11 +726,11 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 03094b52ad351d6575abfed82cac41f4
+      Hash: 24517b7a320e701b07af081099455b22
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: TestMovement
+    className: LookPersonalOnMouse_2
   platform: 20
   scenePathNames:
-  - Assets/Test/TestScene.unity
-  playerPath: D:/Project-Orange/Repository/Acrobatic-Freedom/Build/Development Build/0.2.1
+  - Assets/Scenes/TestScene.unity
+  playerPath: D:/Git-Repository/Acrobatic-Freedom/Build/Development Build/1.0.3

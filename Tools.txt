@@ -1,5 +1,6 @@
 Editor:
 Unity 2019.1.5f1
 Platforms:
+-WebGL Support
 -Android Build Support + Android SDK & NDK Tools
 -iOS Build Support

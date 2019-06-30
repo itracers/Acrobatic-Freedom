@@ -19,7 +19,7 @@ public class TestMovement : MonoBehaviour
                       $"X:{gameObject.transform.position.x}\n" +
                       $"Y:{gameObject.transform.position.y}\n" +
                       $"Z:{gameObject.transform.position.z}\n" +
-                      $"MousePosition:{new Vector3(Input.mousePosition.x, 0f, Input.mousePosition.z)}\n";
+                      $"MousePosition:{new Vector3(Input.mousePosition.x, Input.mousePosition.y, Input.mousePosition.z)}\n";
 
         gameObject.GetComponent<Transform>().position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z + verticalAxis * speed);
         gameObject.GetComponent<Transform>().position = new Vector3(gameObject.transform.position.x + horizontalAxis * speed, gameObject.transform.position.y, gameObject.transform.position.z);
